@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.primary-text{
+    color: #FD6E0A;
+}
+
+
+.primary-btn {
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.outline-btn {
+    padding: 15px 35px;
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    line-height: 20px;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left bottom;
+}
+
+section{
+    text-align: center;
+}
+
+/* -----nav styles------- */
+nav {
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 50px;
+    color: #474747;
+}
+
+/* ---------- bannar  styles-------------- */
+.bannar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 200px;
+}
+.bannar-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.bannar-title {
+    font-weight: 800;
+    font-size: 85px;
+    line-height: 85px;
+}
+
+.bannar-description {
+    width: 400px;
+    font-size: 18px;
+    color: #757575;
+    margin: 20px 0;
+}
+
+/* about me styles */
+.about-me {
+    margin: 130px 200px;
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+}
+
+.section-description {
+    margin: 30px;
+}
+
+.section-items-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-item-name {
+    color: #757575;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.section-item-value {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
