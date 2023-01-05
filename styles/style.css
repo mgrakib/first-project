@@ -36,6 +36,7 @@
 
 section{
     text-align: center;
+    margin: 130px 200px;
 }
 
 /* -----nav styles------- */
@@ -94,9 +95,16 @@ nav ul li a{
 
 /* about me styles */
 .about-me {
-    margin: 130px 200px;
+    
     background-color: #FFF8F3;
     padding: 130px 150px;
+}
+
+.section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
 }
 
 .section-description {
@@ -107,6 +115,7 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .section-item-name {
@@ -119,4 +128,18 @@ nav ul li a{
     color: #474747;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* ----- what i do style ---------- */
+.what-i-do-box {
+    text-align: left;
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.442);
+    padding: 10px;
+}
+
+
+.what-i-do-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0 20px 0;
 }
